@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {IProduct} from './product';
 import { ProductService } from './product.service';
 
@@ -35,8 +35,8 @@ export class ProductListComponent implements OnInit {
     toggleImage(): void {
         this.showImage = !this.showImage;
     }
-    onRatingClicked(message:string): void {
-        this.pageTitle = "Product List: " + message;
+    onRatingClicked(message: string): void {
+        this.pageTitle = 'Product List: ' + message;
     }
 
     ngOnInit(): void {
