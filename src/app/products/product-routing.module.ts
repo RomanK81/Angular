@@ -16,4 +16,4 @@ import { ProductGuardService } from './product-guard.service';
   ],
   exports: [RouterModule]
 })
-export class ProductRoutingModule { };
+export class ProductRoutingModule { }
